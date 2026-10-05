@@ -1,0 +1,70 @@
+# Übung 1
+
+Lösen Sie die implementierten Übungsbeispiele und erstellen Sie 1 gesammelten Report für alle Beispiele.
+Laden Sie (1 Gruppenmitglied) diese auf moodle hoch.
+
+- Dateiname: UE<uebungnr>_<lastname1_lastname2...>.zip
+- .zip enthält Report<uebungnr>_<lastname1_lastname2...>.pdf + Quellcode für alle Beispiele im Ordner src/ --> e.g.
+```
+Report<uebungnr>_<lastname1_lastname2...>.pdf
+src
+  | ObjectDiagram-Expression-Exercise
+  | Order-Exercise
+  | ShoppingCart-Exercise
+```
+- Report: enthält Namen der Mitwirkenden in Kopfzeile
+- Report: ansprechende Form
+- Quellcode: lesbar + ausführbar
+- Entsprechende wissenschaftliche Praxis (e.g. Referenz zu Quellen, keine Plagiate)
+
+bei Nichteinhaltung Punkteabzug
+
+# Beispiel 1: Order
+
+Dieses Beispiel ermöglicht eine Bestellung von Produkten (Pizzen) mit entsprechenden Preisen.
+
+### Aufgabe
+
+Implementieren Sie das gegebene Klassendiagramm bis die gegebenen Testfälle durchlaufen.
+Der Testcode darf nicht verändert werden!
+
+Im Report:
+1. Fügen Sie einen Screenshot der Testresultate hinzu.
+2. Beschreiben Sie Ihren Lösungsweg.
+3. Anhand des Beispiels *Order*: Beschreiben Sie in welcher Beziehung ein UML‑Klassendiagramm zur Implementierung im Quellcode steht.
+
+# Beispiel 2: ShoppingCart
+
+Dieses Beispiel ermöglicht eine Auswahl von Waren aus verschiedenen Kategorien in Form eines Warenkorbs.
+Nach Auswahl der Waren wird eine Rechnung mit zu bezahlendem Betrag und Steuer berechnet.
+
+### Aufgabe
+
+Implementieren Sie das gegebene Klassendiagramm bis die gegebenen Testfälle durchlaufen.
+Der Testcode darf nicht verändert werden!
+
+Im Report:
+1. Fügen Sie einen Screenshot der Testresultate hinzu.
+2. Beschreiben Sie Ihren Lösungsweg.
+3. Erläutern sie, worin sich in Java die Verberung von Klassen und Interfaces unterscheidet.
+
+**Hinweis:** 
+- Verketten von (XML)-Strings nicht mit `+`. Es gibt bessere und performantere Varianten.
+
+# Beispiel 3: ObjectDiagram-Expression
+
+Dieses Beispiel ermöglicht die Zusammenstellung eines Objektbaums für mathematische Ausdrücke und Operationen.
+
+### Aufgabe
+
+Gegeben ist die Implementierung des Klassendiagramms und Objektdiagramms.
+
+Fügen Sie die Implementierung des Testcodes in `ExpressionTest.setup()` hinzu, damit die Testfälle erfolgreich durchlaufen.
+Beachten Sie, dass der zu erstellende Objektbaum durch das Objektdiagramm festgelegt ist.
+Der Produktivcode und die Klasse `ExpressionTest` außerhalb der `.setup()` Methode dürfen nicht verändert werden!
+
+Im Report:
+1. Fügen Sie einen Screenshot der Testresultate hinzu.
+2. Beschreiben Sie Ihren Lösungsweg.
+3. Wie unterscheidet sich die Nutzung von Klassenvererbung in Java von einer Lösung, bei der Objekte über Komposition und Delegation zusammenarbeiten?
+4. Erläutern Sie, worin sich ein UML‑Objektdiagramm und ein UML‑Klassendiagramm hinsichtlich ihrer Aussage über ein System unterscheiden?
